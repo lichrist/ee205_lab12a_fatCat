@@ -8,5 +8,6 @@
 /// @author Christian Li <lichrist@hawaii.edu>
 /// @date   15_Apr_2022
 ///////////////////////////////////////////////////////////////////////////////
-
+#include <cassert>
+#include <iostream>
 #include "Weight.h"
