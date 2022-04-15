@@ -11,3 +11,25 @@
 #include <cassert>
 #include <iostream>
 #include "Weight.h"
+
+Weight::Weight() noexcept{
+    weight = UNKNOWN_WEIGHT;
+    unitOfWeight = POUND;
+}
+
+Weight::Weight(float newWeight) {
+    weight = newWeight;
+    maxWeight = UNKNOWN_WEIGHT;
+}
+
+Weight::UnitOfWeight Weight::getUnitOfWeight() const noexcept {
+    return unitOfWeight;
+}
+
+float Weight::getWeight() const noexcept {
+    return weight;
+}
+
+float Weight::getMaxWeight() const noexcept {
+    return maxWeight;
+}
