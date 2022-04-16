@@ -16,10 +16,7 @@ int main() {
     newWeight.dump();
     Weight newWeight2 = Weight(16, Weight::POUND, 16);
     newWeight2.dump();
-    Weight newWeight3 = Weight(24, Weight::KILO, 24);
-    newWeight3.dump();
     std::cout << newWeight2.getWeight(Weight::SLUG);
-    std::cout << newWeight3.getWeight(Weight::SLUG);
     return false;
 
     /*
